@@ -1,0 +1,99 @@
+
+/*==========  Desktop First  ==========*/
+
+// // ≥1200px
+// +media-breakpoint-down(lg)
+
+// // ≥992px
+// +media-breakpoint-down(md)
+
+// // ≥768px
+// +media-breakpoint-down(sm)
+
+// // ≥576px
+// +media-breakpoint-down(xs)
+
+
+/*==========  Mobile First  ==========*/
+
+// // ≤576px
+// +media-breakpoint-up(sm)
+@include media-breakpoint-only(xs)
+  .map
+    img
+      display: none
+  .popular .card img
+    position: relative!important
+    margin: auto!important
+    bottom: -4px!important
+    left: 90px!important
+  .about-us .about-us-imag img
+    display: none
+  .mario
+    .large-card
+      display: none
+  .small-cards
+    padding: 0!important
+  .services
+    float: left
+  .services .service-item:nth-last-child(1)
+    padding-right: 10px!important
+    padding-left: 10px!important
+  .services .service-item:first-child
+    padding-left: 20px
+  .top-menu nav.top-menu-prim ul.navigation li
+    padding: 4px 23px!important
+    max-width: 85px
+  .popular .navigat a.custom-carousel-chevron
+    display: none!important
+  .footer-request .mail
+    margin-top: 5px!important
+    .maill
+      font-size: 16px
+      span:nth-last-child(1)
+        font-size: 19px
+  .footer-request .address
+    margin-top: 5px!important
+    font-size: 19px
+    .addresss
+      font-size: 16px
+      span:nth-last-child(1)
+        font-size: 19px
+  .footer-request .phone
+    margin-top: 5px!important
+    font-size: 19px
+  .footer-request
+    font-size: 19px
+
+@include media-breakpoint-only(sm)
+
+  .map
+    img
+      display: none
+  .popular .card img
+    display: none
+  .about-us .about-us-imag img
+    display: none
+  .mario
+    .large-card
+      display: none
+  .small-cards
+    padding: 0!important
+  .services
+    float: left
+
+
+
+@include media-breakpoint-only(md)
+
+@include media-breakpoint-only(lg)
+
+// // ≤768px
+// +media-breakpoint-up(md)
+
+// // ≤992px
+
+// +media-breakpoint-up(lg)
+
+// // ≤1200px
+// +media-breakpoint-up(xl)

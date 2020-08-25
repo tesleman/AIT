@@ -1,0 +1,682 @@
+@import config
+@import media
+
+// CUSTOM USER STYLES & IMPORTS
+.pd-0
+  padding: 0
+
+
+.header
+  margin-top: 30px
+
+  .logo
+    img
+      max-height: 58.75px
+
+  .dropdown
+    margin-top: 10px
+    width: 100%
+
+    .custom-btn
+      background-color: #00ca00
+      border-bottom-left-radius: 30px
+      border-top-left-radius: 30px
+      white-space: nowrap
+      border: none
+
+      .button-svg
+
+    .form-col
+      padding: 0
+
+    .form
+      width: 100%
+      height: 100%
+
+      input
+        height: 100%
+        width: 100%
+        border: none
+        margin-left: -3px
+        border-bottom-right-radius: 30px
+        border-top-right-radius: 30px
+
+    .input-svg
+      position: absolute
+      right: 25px
+      top: 10px
+
+
+.top-menu
+  margin-top: 30px
+  background-color: #0074ea !important
+  padding: 0
+
+  nav.top-menu-prim
+    margin-right: 16px
+    ul.navigation
+      display: inline-block
+      color: #fff
+      text-decoration: none
+      margin: 0
+      padding: 0
+
+      li.active
+        background-color: #00bc00
+
+      li
+        display: inline-block
+        color: #fff
+        padding: 12px 30px
+        text-decoration: none
+
+        a.navigation-link
+
+          font-size: 18px
+          font-family: $BalooThambi2
+          color: #fff
+          text-decoration: none
+
+  .container-cart-svg
+    display: flex
+    max-width: 40px
+    height: 40px
+    border-radius: 50%
+    background-color: #ffbd00
+    align-self: center
+    justify-items: center
+    justify-content: center
+
+    .cart-svg
+      flex: 1
+      align-self: center
+      justify-items: center
+      justify-content: center
+      color: #ffffff
+  .my-cart
+    color: white
+    span
+      white-space: nowrap
+
+.mario
+  margin-top: 25px
+  width: 100%
+
+  .large-card
+    border-radius: 15px
+    overflow: hidden
+    background-color: #00aaff
+
+    img
+      max-height: 447px
+      float: right
+      margin-right: -45px
+
+  .prises
+    font-family: BalooThambi2, sans-serif
+    font-weight: bold
+    margin-top: 85px
+    margin-left: 15px
+
+    .prise
+      display: flex
+      text-align: center
+      max-height: 75px
+      max-width: 175px
+      font-size: 74px
+      color: #ffffff
+      line-height: 75px
+
+      span
+        padding-left: 15px
+        padding-right: 15px
+        border-radius: 50px
+        background-color: red
+        float: left
+        justify-items: center
+        padding-bottom: 15px
+
+    .crossed-out-prise
+      text-align: center
+      max-height: 75px
+      max-width: 175px
+      z-index: 5
+      justify-items: center
+      color: #ffffff
+      display: flex
+
+      span
+        font-size: 60px
+        z-index: 5
+        float: left
+        padding-left: 15px
+
+        &::before
+          content: ''
+          border-bottom: 5px solid red
+          width: 117px
+          padding-top: 40px
+          position: absolute
+
+    .green-text
+      color: #fff3cd
+      white-space: nowrap
+      z-index: 5
+      font-size: 60px
+      font-family: BalooThambi2, sans-serif
+      font-weight: bold
+      letter-spacing: 0
+      display: flex
+      flex-wrap: wrap
+      margin-top: 75px
+      margin-bottom: 26px
+
+      span
+        display: inline-block
+        line-height: 64px
+        max-height: 62px
+        margin: 5px 0
+        padding: 0 20px
+        z-index: 2
+        border-radius: 50px
+        background-color: #00ca00
+
+  .small-cards
+    padding-right: 0
+    padding-left: 28px
+    overflow: hidden
+
+    .small-card
+      background-color: #ff0c7b
+      overflow: hidden
+      padding-left: 34px
+      padding-top: 54px
+      padding-bottom: 64px
+      border-radius: 15px
+
+
+      a
+        font-family: BalooThambi2, sans-serif
+        font-size: 16px
+        line-height: 32px
+        color: white
+
+      img
+        top: 15px
+        position: absolute
+        right: 0
+        max-width: 130px
+
+      span
+
+        margin-right: 50px
+        line-height: 40px
+        color: #ffffff
+        font-family: BalooThambi2, sans-serif
+        font-size: 38px
+        font-weight: bold
+
+    .second
+      background-color: #00ca00
+      margin-top: 20px
+
+      span
+        padding-right: 50px
+
+      img
+        top: auto
+        bottom: -34px
+        position: absolute
+        right: -80px
+        max-width: 280px
+
+
+.services
+  margin-top: 38px
+  background-color: #fff
+  padding: 22px 35px 24px 24px
+  border-radius: 15px
+
+  .service-item:nth-last-child(1)
+    border-right: none
+    padding: 0
+
+  .service-item
+    border-right: 1px solid #e9e9e9
+    display: inline-block
+    float: left
+    line-height: 8px
+
+
+    white-space: nowrap
+    font-family: 'Baloo Thambi 2', sans-serif
+
+    img.imag
+      margin-top: 8px
+
+    h5
+      font-family: 'Baloo Thambi 2', sans-serif
+      font-size: 16px
+
+    p
+      color: #616161
+      word-spacing: 0
+      font-family: 'Baloo Thambi 2', sans-serif
+      margin: 0
+      font-size: 13px
+
+
+.first-slider
+  margin-top: 40px
+
+  .navigat
+
+    span.dis
+      line-height: 70px
+      font-size: 56px
+      font-weight: bold
+      font-family: BalooThambi2, sans-serif
+
+    a.custom-carousel-chevron
+      background-color: #fff
+      color: #212529
+      position: relative
+      border-radius: 50%
+      width: 40px
+      height: 40px
+      display: flex
+      flex-direction: row
+      border: 1px solid #ffbd00
+
+      &:hover, &:focus
+        background-color: #ffbd00
+        color: #ffffff
+
+        &.active
+          background-color: #ffbd00
+
+      svg.bi
+        font-size: 20px
+        justify-content: center
+        flex-direction: column
+        align-self: center
+        justify-items: center
+        justify-content: center
+        flex: 1
+
+  .carousel-indicators
+    bottom: -78px
+
+    li
+      background-color: #ffff
+      border-radius: 50%
+      width: 16px
+      height: 16px
+      border: 1px solid #ffbd00
+      color: #212529
+      position: relative !important
+
+      &.active
+        background-color: #ffbd00
+
+  ol.dot
+    margin-top: 25px
+
+  .custom-carousel
+    .carousel-inner
+      .carousel-item
+
+        .cardBody
+          border: 1px solid rgba(0, 0, 0, .125)
+          border-radius: 15px
+          background-color: #fff
+          padding: 14px 20px
+
+          .btn-light-custom
+            width: 100%
+            border: 2px solid #00ca00
+            border-radius: 50px
+            background-color: #fff
+            margin-top: 15px
+            margin-bottom: 20px
+
+          .card-img
+            display: flex
+            height: 230px
+
+            img
+              margin: auto
+              max-width: 210px
+
+          .card-title
+            font-size: 19px
+            font-family: BalooThambi2, sans-serif
+            font-weight: normal
+            word-spacing: 0
+            letter-spacing: 0
+
+          .prises-card
+            .prises-red
+              font-family: BalooThambi2, sans-serif
+              font-weight: bold
+              font-size: 36px
+              display: inline-block
+              color: #ffffff
+              background-color: red
+              border-radius: 50px
+              line-height: 38px
+              padding: 0px 10px
+
+            .prises-crossed
+              font-size: 30px
+              font-family: BalooThambi2, sans-serif
+              font-weight: bold
+
+              &::before
+                content: ''
+                border-bottom: 3px solid red
+                width: 68px
+                padding-top: 22px
+                position: absolute
+
+.sales
+  margin-top: 140px
+
+  img
+    position: absolute
+    bottom: -14px
+    left: -14px
+    height: 232px
+
+  h1
+    display: inline-block
+    font-family: BalooThambi2, sans-serif
+    font-weight: bold
+    font-size: 32px
+    padding: 38px 0px 42px 168px
+    color: #fff
+    background-color: #f10a6d
+    text-transform: uppercase
+
+  .secondary
+    display: inline-block
+    font-family: BalooThambi2, sans-serif
+    font-weight: bold
+    font-size: 32px
+    padding: 38px 0px 42px 136px
+    color: #fff
+    text-transform: uppercase
+    background-color: #00aaff
+
+  .custom-button-chevron
+
+    position: absolute
+    right: 18px
+    bottom: 18px
+    width: 18px
+    height: 18px
+    border-radius: 50%
+    padding: 0
+    display: flex
+
+    svg
+      flex: 1
+      justify-content: center
+      justify-items: center
+      margin-top: 2px
+      font-size: 12px
+
+
+.about-us
+  margin-top: 100px
+
+  .about-us-imag
+    img
+      height: 100%
+      margin-left: -70px
+
+  .about-us-text
+    margin-left: 68px
+
+    h1
+      text-transform: uppercase
+      font-family: BalooThambi2, sans-serif
+      font-weight: bold
+      font-size: 56px
+
+    p
+      font-family: BalooThambi2
+      font-weight: 400
+      font-size: 16px
+      letter-spacing: 0
+      word-spacing: 0
+
+    a
+      color: #ffc125
+      text-decoration: underline
+
+
+.popular
+  margin-top: 100px
+
+  .navigat
+    border-bottom: 1px solid rgba(0, 0, 0, .125)
+    margin-bottom: 40px
+    .marg
+      margin-top: 15px
+
+    span.dis
+      line-height: 70px
+      font-size: 56px
+      font-weight: bold
+      font-family: BalooThambi2, sans-serif
+
+    a.custom-carousel-chevron
+      background-color: #fff
+      color: #212529
+      position: relative
+      border-radius: 50%
+      width: 40px
+      height: 40px
+      display: flex
+      flex-direction: row
+      border: 1px solid #ffbd00
+
+      &:hover, &:focus
+        background-color: #ffbd00
+        color: #ffffff
+
+        &.active
+          background-color: #ffbd00
+
+      svg.bi
+        font-size: 20px
+        justify-content: center
+        flex-direction: column
+        align-self: center
+        justify-items: center
+        justify-content: center
+        flex: 1
+
+  .marg
+    margin-top: 20px
+
+  .card
+    border-radius: 8px
+    margin-top: 20px
+    line-height: 0
+    padding: 30px 5px
+    color: #000000
+    overflow: hidden
+    img
+      position: absolute
+      bottom: -28px
+      left: 5px
+    .btn-light-custom
+      width: 100%
+      border: 2px solid #00ca00
+      border-radius: 50px
+      background-color: #fff
+      margin-top: 15px
+      margin-bottom: 20px
+
+    span
+      line-height: 15px
+      font-family: BalooThambi2, sans-serif
+      font-weight: bold
+      font-size: 30px
+
+    p
+      line-height: 18px
+  .carousel
+
+
+    .carousel-inner
+      .carousel-item
+        margin-top: 20px
+        figure
+          margin: 0 12px
+          p
+            height: 112px
+            width: 112px
+            overflow: hidden
+            border-radius: 50%
+
+          img
+            margin: -40%
+      figcaption
+        .figcaption
+          line-height: 0
+          margin: 35px 0
+      h4
+        font-family: BalooThambi2, sans-serif
+        font-weight: bold
+        font-size: 22px
+      p
+        font-size: 13px
+        font-family: BalooThambi2, sans-serif
+
+
+
+  ol.carousel-indicators
+    bottom: -80px
+    left: -290 px
+    li
+      background-color: #ffff
+      border-radius: 50%
+      width: 16px
+      height: 16px
+      border: 1px solid #ffbd00
+      color: #212529
+      position: relative !important
+
+      &.active
+        background-color: #ffbd00
+.map
+  margin-top: 100px
+.footer-request
+  margin-top: 28px
+  margin-bottom: 28px
+  color: #2b2b2b
+  font-family: BalooThambi2, sans-serif
+  img
+    align-self: center
+    justify-items: center
+    justify-content: center
+    flex: 1
+    margin-left: -15px
+  .mail
+    border-right: 1px solid rgba(0, 0, 0, .125)
+    align-self: center
+    justify-items: center
+    justify-content: center
+    display: flex
+    font-size: 12px
+    span:nth-last-child(1)
+      font-size: 14px
+      white-space: nowrap
+    .mail-svg
+      align-self: center
+      justify-items: center
+      justify-content: center
+      display: flex
+      background-color: #ffbd00
+      width: 40px
+      height: 44px
+      border-radius: 50%
+      svg
+        color: white
+        flex: 1
+        align-self: center
+        justify-items: center
+        justify-content: center
+    .maill
+      line-height: 19px
+      margin: auto
+
+
+  .address
+    border-right: 1px solid rgba(0, 0, 0, .125)
+    display: flex
+    align-self: center
+    justify-items: center
+    justify-content: center
+    font-size: 12px
+    padding-right: 20px
+    span:nth-last-child(1)
+      font-size: 14px
+      white-space: nowrap
+
+    .address-svg
+      align-self: center
+      justify-items: center
+      justify-content: center
+      display: flex
+      background-color: #ffbd00
+      width: 40px
+      height: 44px
+      border-radius: 50%
+      svg
+        font-size: 20px
+        color: white
+        flex: 1
+        align-self: center
+        justify-items: center
+        justify-content: center
+    .addresss
+      line-height: 19px
+      margin: auto
+  .phone
+    display: flex
+    align-self: center
+    justify-items: center
+    justify-content: center
+    .phone-svg
+      align-self: center
+      justify-items: center
+      justify-content: center
+      display: flex
+      background-color: #ffbd00
+      width: 40px
+      height: 44px
+      border-radius: 50%
+      svg
+        color: white
+        flex: 1
+        align-self: center
+        justify-items: center
+        justify-content: center
+    .phonee
+      line-height: 19px
+      margin: auto
+      span
+
+      a
+        color: red
+
+.footer
+  padding: 20px 0
+  background-color: #0074ea
+  color: white
+  .ait
+    float: right

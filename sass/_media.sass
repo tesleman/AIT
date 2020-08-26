@@ -34,8 +34,7 @@
       display: none
   .small-cards
     padding: 0!important
-  .services
-    float: left
+
   .services .service-item:nth-last-child(1)
     padding-right: 10px!important
     padding-left: 10px!important
@@ -79,12 +78,22 @@
       display: none
   .small-cards
     padding: 0!important
-  .services
-    float: left
+  .popular .navigat a.custom-carousel-chevron
+    display: none!important 
 
 
 
 @include media-breakpoint-only(md)
+  .map
+    img 
+      display: none
+  .first-slider .custom-carousel .carousel-inner .carousel-item .cardBody .prises-card .prises-crossed::after
+    left: 32px!important
+  .popular .navigat .marg
+    display: none
+  .popular .card img
+    left: -32px!important  
+ 
 
 @include media-breakpoint-only(lg)
 
